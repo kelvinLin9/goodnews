@@ -1,9 +1,25 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <v-app>
+    <Navbar/>
+    <router-view></router-view>
+  </v-app>
+  
+
+  
 </template>
+
+<script>
+import Navbar from '../components/NavbarComp.vue';
+export default {
+  components: {
+    Navbar,
+  },
+  computed: {
+  },
+  methods: {
+  },
+  created () {
+    console.log(this.$route.name)
+  },
+}
+</script>
