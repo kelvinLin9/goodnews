@@ -1,7 +1,5 @@
 <template>
-    <br>  <br>  <br>  <br>  <br>  <br>
-  322
-  <br>
+  Podcast
 </template>
 
 <script>
@@ -13,3 +11,4 @@ export default {
 <style>
 
 </style>
+

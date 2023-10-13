@@ -31,9 +31,11 @@
       <v-btn icon>
         <v-icon @click="drawer=!drawer">mdi-menu</v-icon>
       </v-btn>
-      <!-- <div class="w-100">
-        <img src="../assets/images/logo.png" alt="" class="mx-auto d-block">
-      </div> -->
+      <router-link to="/" class="w-100">
+        <div class="w-100">
+          <img src="../assets/images/logo.png" alt="" class="mx-auto d-block">
+        </div>
+      </router-link>
       <!-- <router-link to="/">
         <v-img
           alt="Logo"
@@ -65,7 +67,7 @@
           {title: "隨選精華", url:"#"},
           {title: "節目表", url:"#"},
           {title: "主持人", url:"#"},
-          {title: "Podcast", url:"#"},
+          {title: "Podcast", url:"/podcast"},
           {title: "直播", url:"#"},
           {title: "月刊", url:"#"},
           {title: "聯絡我們", url:"#"},

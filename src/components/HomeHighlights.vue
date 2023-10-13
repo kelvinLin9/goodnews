@@ -21,13 +21,13 @@
         >
           <v-card-item>
             <div>
-              <h3 class="mb-3">
+              <h3 class="mb-5">
                 {{ item.title }}
               </h3>
-              <div class="text-caption mb-3">
+              <div class="text-caption mb-5">
                 {{ item.content }}
               </div>
-              <div class="text-caption mb-3">
+              <div class="text-caption mb-5">
                 {{ item.date }}
               </div>
             </div>
